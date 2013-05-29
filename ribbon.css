@@ -1,16 +1,17 @@
 .ribbon {
-  font-size: 16px !important;  /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
   position: absolute;
-  background: #ba89b6;
-  padding: 1em 2em; /* Adjust to suit */
   bottom: 3em;
   right: 0;
+  font-size: 16px !important;  /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+  background: rgb(181, 166, 48);
+  color: white;
+  padding: 1em 2em; /* Adjust to suit */
 }
 
 .ribbon:before {
   content: "";
   position: absolute;
-  border: 1.5em solid #986794;
+  border: 1.5em solid rgb(156, 143, 48);
   border-left-color: transparent;
   z-index: -1;
   top: -0.5em;
@@ -21,7 +22,7 @@
   content: "";
   position: absolute;
   border-style: solid;
-  border-color: transparent transparent #804f7c transparent;
+  border-color: transparent transparent rgb(137, 122, 26) transparent;
   border-width: 0 0 0.5em 1em;
   top: -0.5em;
   left: 0;
