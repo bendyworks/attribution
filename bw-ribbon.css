@@ -1,4 +1,4 @@
-.ribbon {
+.bw-ribbon {
   position: absolute;
   bottom: 3em;
   right: 0;
@@ -6,7 +6,7 @@
   background: #808080;
 }
 
-.ribbon:before {
+.bw-ribbon:before {
   content: "";
   position: absolute;
   border: 1.5em solid #666666;
@@ -16,11 +16,11 @@
   left: -2em;
 }
 
-.ribbon .ribbon-content {
+.bw-ribbon .ribbon-content {
   overflow: auto;
 }
 
-.ribbon .ribbon-content:before {
+.bw-ribbon .ribbon-content:before {
   content: "";
   position: absolute;
   border-style: solid;
@@ -30,22 +30,22 @@
   left: 0;
 }
 
-.ribbon .ribbon-content a, .ribbon .ribbon-content img {
+.bw-ribbon .ribbon-content a, .bw-ribbon .ribbon-content img {
   float: right;
   display: block;
   height: 30px;
   width: 30px;
 }
 
-.ribbon .ribbon-content .bw-github {
+.bw-ribbon .ribbon-content .bw-github {
   background: #4183C5 url(http://d2xzi4fir1vmdf.cloudfront.net/octocat.png) no-repeat center;
 }
 
-.ribbon .ribbon-content .bw-logo {
+.bw-ribbon .ribbon-content .bw-logo {
   background: #BEB631 url(http://d2xzi4fir1vmdf.cloudfront.net/bw-logo.png) no-repeat center;
 }
 
-.ribbon .ribbon-content .bw-made {
+.bw-ribbon .ribbon-content .bw-made {
   width: 104px;
   padding: 0 2em;
   background: url(http://d2xzi4fir1vmdf.cloudfront.net/made-at-bw.png) no-repeat center;
