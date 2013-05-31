@@ -2,28 +2,51 @@
   position: absolute;
   bottom: 3em;
   right: 0;
-  font-size: 16px !important;
-  background: rgb(181, 166, 48);
-  color: white;
-  padding: 1em 2em;
+  font-size: 10px !important;
+  background: #808080;
 }
 
 .ribbon:before {
   content: "";
   position: absolute;
-  border: 1.5em solid rgb(156, 143, 48);
+  border: 1.5em solid #666666;
   border-left-color: transparent;
   z-index: -1;
   top: -0.5em;
   left: -2em;
 }
 
+.ribbon .ribbon-content {
+  overflow: auto;
+}
+
 .ribbon .ribbon-content:before {
   content: "";
   position: absolute;
   border-style: solid;
-  border-color: transparent transparent rgb(137, 122, 26) transparent;
+  border-color: transparent transparent #5A5A5A transparent;
   border-width: 0 0 0.5em 1em;
   top: -0.5em;
   left: 0;
+}
+
+.ribbon .ribbon-content a {
+  float: right;
+  display: block;
+  height: 30px;
+  width: 30px;
+}
+
+.ribbon .ribbon-content .bw-github {
+  background: #4183C5 url(images/octocat.png) no-repeat center;
+}
+
+.ribbon .ribbon-content .bw-logo {
+  background: #BEB631 url(images/bw-logo.png) no-repeat center;
+}
+
+.ribbon .ribbon-content .bw-made {
+  width: 104px;
+  padding: 0 2em;
+  background: url(images/made-at-bw.png) no-repeat center;
 }
