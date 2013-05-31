@@ -26,6 +26,6 @@
       '<a class=\"bw-made\" href=\"http://bendyworks.com\" />' +
       '</div></div>';
 
-  document.write('<link href=\"ribbon.css\" media=\"screen\" rel=\"stylesheet\" />');
+  document.write('<link href=\"http://d2xzi4fir1vmdf.cloudfront.net/bw-ribbon.css\" media=\"screen\" rel=\"stylesheet\" />');
   document.write(ribbonContent);
 })()

@@ -38,15 +38,15 @@
 }
 
 .ribbon .ribbon-content .bw-github {
-  background: #4183C5 url(images/octocat.png) no-repeat center;
+  background: #4183C5 url(http://d2xzi4fir1vmdf.cloudfront.net/octocat.png) no-repeat center;
 }
 
 .ribbon .ribbon-content .bw-logo {
-  background: #BEB631 url(images/bw-logo.png) no-repeat center;
+  background: #BEB631 url(http://d2xzi4fir1vmdf.cloudfront.net/bw-logo.png) no-repeat center;
 }
 
 .ribbon .ribbon-content .bw-made {
   width: 104px;
   padding: 0 2em;
-  background: url(images/made-at-bw.png) no-repeat center;
+  background: url(http://d2xzi4fir1vmdf.cloudfront.net/made-at-bw.png) no-repeat center;
 }
