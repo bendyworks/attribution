@@ -30,7 +30,7 @@
   left: 0;
 }
 
-.ribbon .ribbon-content a {
+.ribbon .ribbon-content a, .ribbon .ribbon-content img {
   float: right;
   display: block;
   height: 30px;
