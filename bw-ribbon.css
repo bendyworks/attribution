@@ -1,8 +1,22 @@
-.bw-ribbon {
-  position: absolute;
+.bw-attribution * {
+  text-shadow: none;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+  float: none;
+}
+
+.bw-attribution {
+  position: fixed;
   bottom: 3em;
   right: 0;
   font-size: 10px !important;
+  z-index: 1;
+}
+
+.bw-ribbon {
   background: #808080;
 }
 
@@ -49,9 +63,4 @@
   width: 104px;
   padding: 0 2em;
   background: url(http://d2xzi4fir1vmdf.cloudfront.net/made-at-bw.png) no-repeat center;
-}
-
-.bw-attribution {
-  position: relative;
-  z-index: 1;
 }
