@@ -50,3 +50,8 @@
   padding: 0 2em;
   background: url(http://d2xzi4fir1vmdf.cloudfront.net/made-at-bw.png) no-repeat center;
 }
+
+.bw-attribution {
+  position: relative;
+  z-index: 1;
+}
