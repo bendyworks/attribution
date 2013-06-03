@@ -5,8 +5,12 @@
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta name="description" content="Attribution : Spreading the bendyword, one project at a time." />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type='text/javascript' src='javascripts/md5.js'></script>
+    <script type='text/javascript' src='javascripts/main.js'></script>
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/custom.css">
 
     <title>Attribution</title>
   </head>
@@ -31,8 +35,25 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>
-<a name="create-your-banner" class="anchor" href="#create-your-banner"><span class="octicon octicon-link"></span></a>Create your Banner</h3>
+        <h3>Generate Your Ribbon</h3>
+
+        <form id='generate-ribbon'>
+          <label for='repo'>Project URL</label>
+          <input name='repo' type='url' placeholder="Your repository's URL" required />
+
+          <label for='gravatar'>Gravatar email</label>
+          <input name='gravatar' type='email' placeholder='Optional' />
+
+          <label for='author'>Author URL</label>
+          <input name='author' type='url' placeholder='Optional' />
+
+          <input type='submit' value='Generate' />
+        </form>
+
+        <div id='generated' style='display:none;'>
+          <label for='generated'>Your Generated Ribbon</label>
+          <textarea name='generated' disabled></textarea>
+        </div>
       </section>
     </div>
 
@@ -43,8 +64,5 @@
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
-
-    
-
   </body>
 </html>

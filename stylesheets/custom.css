@@ -1,0 +1,58 @@
+#main_content {
+  overflow: auto;
+}
+
+form {
+  float: left;
+  padding: 0;
+}
+
+form input[type=url],
+form input[type=email],
+#generated textarea {
+  border: 1px solid #DDD;
+  display: block;
+  width: 250px;
+  margin-bottom: 10px;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+#generated {
+  float: left;
+  margin-left: 50px;
+}
+
+#generated textarea {
+  resize: none;
+  width: 300px;
+  height: 80px;
+}
+
+form [type=submit] {
+  cursor: pointer;
+  border-radius: 3px;
+  border: 1px solid #777;
+  padding: 10px;
+  width: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8);
+  background-color: #0090FF;
+  background-image: -webkit-linear-gradient(#45AEFF, #0090FF);
+  background-image: -moz-linear-gradient(#45AEFF, #0090FF);
+  background-image: linear-gradient(#45AEFF, #0090FF);
+}
+
+form [type=submit]:hover {
+  background-image: -webkit-linear-gradient(#45AEFF, #0066CC);
+  background-image: -moz-linear-gradient(#45AEFF, #0066CC);
+  background-image: linear-gradient(#45AEFF, #0066CC);
+}
+
+form [type=submit]:active {
+  background-image: -webkit-linear-gradient(#0066CC, #45AEFF);
+  background-image: -moz-linear-gradient(#0066CC, #45AEFF);
+  background-image: linear-gradient(#0066CC, #45AEFF);
+}
