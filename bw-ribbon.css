@@ -33,6 +33,13 @@
 .bw-ribbon .ribbon-content {
   overflow: hidden;
   height: 3em;
+  max-width: 144px;
+  -webkit-transition: max-width .5s ease;
+  transition: max-width .5s ease;
+}
+
+.bw-ribbon .ribbon-content:hover {
+  max-width: 234px;
 }
 
 .bw-ribbon .ribbon-content:before {
