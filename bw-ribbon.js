@@ -8,7 +8,10 @@
 
   ribbonContent = '<div class=\"bw-attribution\">' +
       '<div class=\"bw-ribbon\">' +
-      '<div class=\"ribbon-content\">';
+      '<div class=\"ribbon-content\">' +
+      '<a class=\"bw-made\" href=\"http://bendyworks.com\" />' +
+      '<a class=\"bw-logo\" href=\"http://bendyworks.com\" />' +
+      '<a class=\"bw-github\" href=\"' + githubUrl + '\" />';
 
   if (gravatarHash) {
     var img = 'http://www.gravatar.com/avatar/' + gravatarHash + '.jpg?s=30',
@@ -21,10 +24,7 @@
     ribbonContent += content;
   }
 
-  ribbonContent += '<a class=\"bw-github\" href=\"' + githubUrl + '\" />' +
-      '<a class=\"bw-logo\" href=\"http://bendyworks.com\" />' +
-      '<a class=\"bw-made\" href=\"http://bendyworks.com\" />' +
-      '</div></div></div>';
+  ribbonContent += '</div></div></div>';
 
   document.write('<link href=\"http://d2xzi4fir1vmdf.cloudfront.net/bw-ribbon.css\" media=\"screen\" rel=\"stylesheet\" />');
   document.write(ribbonContent);

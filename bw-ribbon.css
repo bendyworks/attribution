@@ -31,7 +31,8 @@
 }
 
 .bw-ribbon .ribbon-content {
-  overflow: auto;
+  overflow: hidden;
+  height: 3em;
 }
 
 .bw-ribbon .ribbon-content:before {
@@ -45,8 +46,8 @@
 }
 
 .bw-ribbon .ribbon-content a, .bw-ribbon .ribbon-content img {
-  float: right;
-  display: block;
+  float: left;
+  display: inline-block;
   height: 30px;
   width: 30px;
 }
