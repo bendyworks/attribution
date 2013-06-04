@@ -55,8 +55,8 @@
 .bw-ribbon .ribbon-content a, .bw-ribbon .ribbon-content img {
   float: left;
   display: inline-block;
-  height: 30px;
-  width: 30px;
+  height: 3em;
+  width: 3em;
 }
 
 .bw-ribbon .ribbon-content .bw-github {
